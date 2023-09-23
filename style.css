@@ -1,0 +1,254 @@
+.topbar{
+    margin-top: 0%;
+}
+.topbar_items{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(184, 211, 207);
+    z-index: 10;
+}
+.name{
+    position:fixed;
+    display: flex;
+}
+#comp{
+    margin-left: 8%;
+    margin-top: 1cqb;
+    font-weight: 900;
+    font-size: x-large;
+}
+#reg{
+    text-decoration: none;
+    margin-left: 70%;
+    margin-top: 1%;
+    font-weight: 600;
+}
+#reg:hover{
+    color: rgb(34, 35, 37);
+}
+#log{
+    margin-left: 80%;
+    text-decoration: none;
+    margin-top: 1%;
+    font-weight: 600;
+}
+#log:hover{
+    color: rgb(34, 35, 37);
+}
+
+#lan{
+    margin-left: 90%;
+    margin-top: 1%;
+    font-weight: 600;
+}
+#lan:hover{
+    color: blue;
+}
+.hometop{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 55%;
+    width: 100%;
+    
+}
+.hmt{
+    text-decoration: none;
+}
+#hmt1{
+    margin-left: 0%;
+    color: antiquewhite;
+}
+#hmt1:hover{
+    color: aqua;
+}
+#hmt2{
+    margin-left: 3%;
+    color: antiquewhite;
+}
+#hmt2:hover{
+    color: aqua;
+}
+#hmt3{
+    margin-left: 3%;
+    color: antiquewhite;
+}
+#hmt3:hover{
+    color: aqua;
+}
+#hmt4{
+    margin-left: 3%;
+    color: antiquewhite;
+}
+#hmt4:hover{
+    color: aqua;
+}
+#hmt5{
+    margin-left: 3%;
+    color: antiquewhite;
+}
+#hmt5:hover{
+    color: aqua;
+}
+.image{
+    position:absolute;
+    width: 100%;
+    height: 170%;
+    margin-top: 3%;
+
+}
+.data{
+    position: absolute;
+    margin-top: 36%;
+    background-color: aliceblue;
+    opacity: 0.5;
+    height: 30%;
+    width: 98%;
+    margin-left: 1.1%;
+}
+.button{
+    position: absolute;
+    margin-top:37% ;
+    margin-left: 75%;
+}
+.btn{
+    font-weight: 900;
+    font-size: larger;
+    padding: 20%;
+    width: 170%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    border-radius: 9px;
+    border-color: rgb(249, 190, 118);
+}
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.abtus{
+    position: absolute;
+    margin-top: 47%;
+    background-color: black;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    height: 30px;
+    font-weight: 600;
+    padding-top: 1%;
+}
+.orst{
+    position: absolute;
+    margin-top: 50%;
+    width: 100%;
+    color: rgb(10, 32, 72);
+    text-align: center;
+    height: 30px;
+    font-weight: 600;
+    padding-top: 1%;
+    font-size: x-large;
+    
+
+}
+#anim{
+    opacity: 0;
+    transform:translateY(20px);
+    transition: opacity 0.5s ease,transform 0.5s ease;
+}
+#anim.animate{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.data1{
+    position: absolute;
+    margin-top: 55%;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(184, 211, 207);
+    border-radius: 10px;
+}
+.ngoimg{
+    position: absolute;
+    margin-top:63% ;
+    width: 50%;
+}
+.ngo{
+    width: 40%;
+    position: absolute;
+    margin-top: 63%;
+    margin-left: 52%;
+    background-color:rgb(184, 211, 207);
+    border-radius: 10px;
+}
+.ngo1{
+    width: 42%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 92%;
+    background-color:rgb(184, 211, 207);
+    border-radius: 10px;
+}
+.ng1{
+    text-align: center;
+    border-radius: 10px;
+}
+.lawimg{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 50%;
+    border-radius: 100px;
+}
+#ngb{
+    align-self: center;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    width: 40%;
+    height: 30px;
+    background-color: black;
+    color: azure;
+    border-color: gold;
+}
+.testi{
+    width: 100%;
+    position: absolute;
+    margin-top: 113.25%;
+    text-align: center;
+}
+.test1{
+    background-color: aliceblue;
+}
+.teimg{
+    position: absolute;
+    width: 20%;
+    margin-top: 120%;
+    margin-left: 3%;
+}
+.tecont{
+    position: absolute;
+    width: 15%;
+    margin-top: 120%;
+    margin-left: 17%;
+}
+.teimg1{
+    position: absolute;
+    width: 20%;
+    margin-top: 120%;
+    margin-left: 35%;
+}
+.tecont1{
+    position: absolute;
+    width: 15%;
+    margin-top: 120%;
+    margin-left: 50%;
+}
+.teimg2{
+    position: absolute;
+    width: 20%;
+    margin-top: 120%;
+    margin-left: 66%;
+}
+.tecont2{
+    position: absolute;
+    width: 15%;
+    margin-top: 120%;
+    margin-left: 82%;
+}
